@@ -50,7 +50,7 @@
     </div>
   </div>
   <!-- Feature -->
-  <div class="row featurette" style="width: 100% ;" id="about">
+  <div class="row featurette" style="width: 100% ;" id="about" data-aos="fade-up">
     <div class="col-md-7 order-md-2">
       
         <h2 class="featurette-heading">Hi I'm Shruti &nbsp;! <br> <span class="text-muted" style="font-size: 20px;">(Software Developer)</span></h2>
@@ -125,7 +125,7 @@
     </div>
   </div>
   <!-- Portfolio -->
-  <div class="card text-center mx-auto" id="portfolio">
+  <div class="card text-center mx-auto" id="portfolio" data-aos="fade-up">
     <div class="card-header">
       Portfolio
     </div>
@@ -146,7 +146,7 @@
   <!-- contact -->
 
 
-  <div class="card mx-auto" id="contact">
+  <div class="card mx-auto" id="contact" data-aos="fade-up">
     <div class="card-header">
       <center>Contact</center>
     </div>
@@ -229,10 +229,14 @@ $(document).ready(function(){
       
       })
       })
-      
-    
     </script>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:300,
+    duration:1000
+  });
+</script>
 </body>
 
 </html>
